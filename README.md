@@ -26,7 +26,7 @@ This repository contains a React app along with a JSON server.
 
 ## Folder Structure
 
-- `Burger-server/`: Contains the JSON server files.
+- `json-server/`: Contains the JSON server files.
   - `db.json`: JSON data file used by the server.
 
 - Root Directory:
