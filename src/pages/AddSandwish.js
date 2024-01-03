@@ -50,8 +50,8 @@ function AddSandwich() {
     ///remove any empty or falsey element
     const description = descriptionArray.filter(Boolean).join(", ");
 
-    // fetch("http://localhost:9000/createdProducts", {
-    fetch("https://res-burger-app.herokuapp.com/created-product", {
+  // fetch("https://res-burger-app.herokuapp.com/created-product", {
+     fetch("http://localhost:9000/createdProducts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
