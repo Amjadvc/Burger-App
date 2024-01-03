@@ -14,7 +14,7 @@ export const fetchProducts = createAsyncThunk(
 export const fetchOldProducts = createAsyncThunk(
   "productsSlice/fetchOldProducts",
   async () => {
-    const res = await fetch("https://res-burger-app.herokuapp.com/products");
+    const res = await fetch("http://localhost:9000/products");
     const data = await res.json();
     return data;
   }
