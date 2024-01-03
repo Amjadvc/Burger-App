@@ -1,4 +1,4 @@
-# Project Name
+# Burger App
 
 This repository contains a React app along with a JSON server.
 
@@ -10,8 +10,8 @@ This repository contains a React app along with a JSON server.
 ### Running the JSON Server
 1. **Navigate to the `json-server` directory.**
 2. **Install JSON Server globally if not already installed:** `npm install -g json-server`.
-3. **Start the JSON Server:** `json-server --watch db.json --port 3001`.
-4. **Verify the server is running by visiting** `http://localhost:3001` **in your browser.**
+3. **Start the JSON Server:** `json-server --watch db.json --port 9000`.
+4. **Verify the server is running by visiting** `http://localhost:9000` **in your browser.**
 
 ### Running the React App
 1. **Navigate to the root directory of the React app.**
@@ -22,12 +22,17 @@ This repository contains a React app along with a JSON server.
 ## Usage
 
 - The React app interacts with the JSON Server to fetch and manipulate data.
-- APIs are available at `http://localhost:3001` (assuming the JSON Server is running).
+- APIs are available at `http://localhost:9000` (assuming the JSON Server is running).
 
 ## Folder Structure
 
-- `json-server/`: Contains the JSON server files.
-- `react-app/`: Contains the React application files.
+- `Burger-server/`: Contains the JSON server files.
+  - `db.json`: JSON data file used by the server.
+
+- Root Directory:
+  - `index.html`: Main HTML file for your React app.
+  - `App.js`, `index.js`, and other necessary React files.
+  - Other files related to your React app.
 
 ## Additional Notes
 
